@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/messages" />
+
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="@string/friends" />
+    </group>
+    <item android:title="Account Settings">
+        <menu>
+
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@android:drawable/ic_menu_upload"
+                android:title="Update Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="Sign Out"/>
+        </menu>
+    </item>
+</menu>

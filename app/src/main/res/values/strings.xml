@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NavigationDrawerApp</string>
+    <string name="profile">Profile</string>
+    <string name="messages">Messages</string>
+    <string name="friends">Friends</string>
+    <string name="this_is_my_content_area">This is my content area.</string>
+</resources>
